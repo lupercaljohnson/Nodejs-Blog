@@ -1,4 +1,4 @@
-i.icon {
+i.coffee {
 	font-size: 2em;
 }
 
@@ -9,3 +9,31 @@ i.icon {
 #delete {
 	display: inline;
 }
+
+#margintop {
+	margin-top: 7.0em;
+}
+#copyright {
+	text-align: center;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+/*
+@media (min-height: 320px) {
+  #newpostfooter {
+   position: absolute;
+    bottom: 0;
+    width: 100%;
+	text-align: center;
+  }
+}
+*/

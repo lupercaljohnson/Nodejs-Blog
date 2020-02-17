@@ -24,13 +24,9 @@ var blogSchema = new mongoose.Schema({
 
 var Blog = mongoose.model("Blog", blogSchema);
 
-/*Blog.create({
-	title: "Test blog",
-	image: "https://i.imgur.com/5mXfwr1.jpg",
-	body: "Here we go"
-})*/
 
 //RESTFULL ROUTES
+//Default route
 app.get("/", (req, res) =>{
 	
 	res.redirect("/blogs");	
